@@ -169,6 +169,7 @@ Instrumental   ████████████ 1000
 ```
 
 FMA was chosen over GTZAN for its scale, label quality, and real-world genre diversity. Perfect class balance eliminates the need for weighted loss functions.
+Models and Datas : https://drive.google.com/drive/folders/1znV0-zfYjBjTcR1KRIn73HoISnVdUE5_
 
 ---
 
@@ -178,7 +179,6 @@ FMA was chosen over GTZAN for its scale, label quality, and real-world genre div
 
 | Metric | Value |
 |--------|-------|
-| Test Accuracy | **60.63%** |
 | Macro F1 Score | **0.59** |
 | Weighted F1 Score | **0.59** |
 
@@ -206,10 +206,6 @@ https://huggingface.co/jessitoi/genre-cnn-fma-small
 - **Pop** is the weakest class (F1=0.29) — by definition, Pop borrows elements from other genres, making it spectrally ambiguous
 - **Instrumental** confuses with Experimental — both lack vocal signatures, the primary differentiator for many genre boundaries
 - Validation loss shows high variance, indicating the model would benefit from a larger batch size and lower learning rate
-
-### Confusion Matrix
-
-![Confusion Matrix](confusion_matrix.png)
 
 ### Training Curves
 
@@ -310,16 +306,6 @@ npm run dev
 - [`docs/v2_architecture.md`](docs/v2_architecture.md) — **[NEW]** V2 System architecture & Google Drive local mount strategy
 - [`docs/v2_model.md`](docs/v2_model.md) — **[NEW]** GenreCNN V2 layers (SE Attention & Residual blocks)
 - [`docs/v2_results.md`](docs/v2_results.md) — **[NEW]** GenreCNN V2 evaluation results, class-wise F1 metrics, and comparison
-
----
-
-## Academic Context
-
-This project was developed as a graduation project for the **Applied Neural Networks** course at **Uludağ University, Department of Computer Engineering**.
-
-The primary research question: *Can CNN architectures designed for visual recognition tasks be effectively repurposed for audio classification via spectrogram representation?*
-
-**Answer: Yes — with 60.63% test accuracy across 8 balanced genre classes using a custom CNN trained from scratch, without any pretrained weights or transfer learning.**
 
 ---
 
