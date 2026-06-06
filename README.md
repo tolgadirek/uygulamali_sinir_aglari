@@ -9,6 +9,10 @@
 ![Test Accuracy](https://img.shields.io/badge/Test%20Accuracy-60.63%25-blue?style=flat)
 
 ---
+#### Tolga Direk - 032190054
+#### Alper Can Özer - 032190152
+#### Enes Emre Turan - 032390083
+---
 
 ## Overview
 
