@@ -6,7 +6,6 @@
 ![PyTorch](https://img.shields.io/badge/PyTorch-2.0+-EE4C2C?style=flat&logo=pytorch&logoColor=white)
 ![Librosa](https://img.shields.io/badge/Librosa-0.10+-green?style=flat)
 ![License](https://img.shields.io/badge/License-MIT-yellow?style=flat)
-![Test Accuracy](https://img.shields.io/badge/Test%20Accuracy-60.63%25-blue?style=flat)
 
 ---
 #### Tolga Direk - 032190054
