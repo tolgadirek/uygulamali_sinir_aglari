@@ -31,11 +31,6 @@ Below is a breakdown of accuracy per genre (using an 8-class layout):
 
 ## Visualizations
 
-### Confusion Matrix
-![Confusion Matrix](../confusion_matrix.png)
-
-*The confusion matrix provides a detailed mapping of true vs. predicted classifications.*
-
 ### Training & Validation Loss
 ![Loss/Accuracy Graph](../loss_graph.png)
 
