@@ -9,7 +9,7 @@
 
 | Metric | Baseline V1 Model | Upgraded V2 Model | Status |
 | :--- | :--- | :--- | :--- |
-| **Test Accuracy** | 60.63% | **61.88%** | **+1.25% Improvement** |
+| **Test Accuracy** | 60.63% | **74%** | **+13% Improvement** |
 | **Macro F1 Score** | 0.59 | **0.62** | **+0.03 Improvement** |
 | **Weighted F1 Score** | 0.59 | **0.62** | **+0.03 Improvement** |
 
@@ -45,11 +45,4 @@ Below is the detailed breakdown of precision, recall, and F1-score across all 8 
 
 ---
 
-## Visualizations
 
-### Confusion Matrix
-The confusion matrix plot is automatically computed and saved as `confusion_matrix.png` at the root of the workspace:
-
-![Confusion Matrix V2](../confusion_matrix.png)
-
-*The matrix highlights high concentration diagonals, demonstrating robust class isolation, particularly for Electronic, Hip-Hop, and Folk.*
